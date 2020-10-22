@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function AnotherRoute() {
@@ -14,7 +15,7 @@ export default function AnotherRoute() {
 
         <p className={styles.description}>
           <h1 className={styles.title}>
-            Go back <a href="/">Home</a>
+            Go back <Link href="/">Home</Link>
           </h1>
         </p>
 
