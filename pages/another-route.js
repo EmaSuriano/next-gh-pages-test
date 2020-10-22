@@ -11,8 +11,6 @@ export default function AnotherRoute() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>This is another route</h1>
-
         <p className={styles.description}>
           <h1 className={styles.title}>
             Go back <Link href="/">Home</Link>
