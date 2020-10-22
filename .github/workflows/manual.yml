@@ -1,8 +1,8 @@
-name: Manual workflow
+name: Github Pages Deployment
 
 on:
   push:
-    branches: master
+    branches: main
 
 jobs:
   update-readme:
