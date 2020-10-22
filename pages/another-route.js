@@ -1,22 +1,21 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function AnotherRoute() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Another Route</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Navigate to <a href="/another-route">Route</a>
-        </h1>
+        <h1 className={styles.title}>This is another route</h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <h1 className={styles.title}>
+            Go back <a href="/">Home</a>
+          </h1>
         </p>
 
         <div className={styles.grid}>
