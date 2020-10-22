@@ -1,5 +1,6 @@
 {
   "name": "next-gh-pages-test",
+  "homepage": "https://emasuriano.github.io/next-gh-pages-test/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
